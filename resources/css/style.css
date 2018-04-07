@@ -63,3 +63,79 @@ h1 {
   margin: 0.25em 0;
   line-height: 1.2em;
 }
+
+nav {
+  background-color: red;
+  color: white;
+}
+
+nav ul {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75em 0;
+  list-style: none;
+  display: flex;
+}
+
+@media only screen and (max-width: 1024px){
+  nav ul {
+      display: none;
+  }
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+
+.product {
+  width: 30%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .product {
+    width: 47%;
+  }
+}
+
+.pen-image {
+  border: 4px solid black;
+  padding: 2em 0;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border-style: none;
+}
+
+.pen-image img {
+  max-width: 8em;
+}
+
+.description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
