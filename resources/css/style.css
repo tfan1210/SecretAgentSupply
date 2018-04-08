@@ -115,7 +115,7 @@ li {
   }
 }
 
-.pen-image {
+.product-image {
   border: 4px solid black;
   padding: 2em 0;
   height: 9em;
@@ -128,7 +128,7 @@ img {
   border-style: none;
 }
 
-.pen-image img {
+.product-image img {
   max-width: 8em;
 }
 
@@ -138,4 +138,29 @@ img {
   color: white;
   text-align: center;
   padding: 0.5em;
+}
+
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0px 0px;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 5em 0;
+  text-align: left;
+  margin-top: 4em;
 }
